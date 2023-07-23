@@ -1,0 +1,93 @@
+* {
+    text-decoration: none; }
+
+.auth-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .auth-modal {
+    padding: 1rem;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .auth-modal h2 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .auth-modal hr {
+    border: none;
+    border-top: 1px solid #fff;
+    margin-bottom: 2rem;
+  }
+  
+  .auth-modal input {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    border: none;
+    border-bottom: rgb(243, 237, 237) thin solid;
+    text-align: center;
+    outline: none;
+    padding: .2rem 0;
+    font-size: .9rem;
+    color: white;
+  }
+  
+  .auth-modal input[type="email"],
+  .auth-modal input[type="password"] {
+    color: rgb(255, 5, 5);
+  }
+  
+  .auth-modal .inicio_container {
+    margin-bottom: 2rem;
+  }
+  
+  .auth-modal .inicio_container .btn {
+    margin-right: 1rem;
+    background-color: #fa0404;
+    color: #fff;
+    border-radius: 2rem;
+    padding: .7rem 2rem;
+    font-weight: 600;
+    font-size: .8rem;
+    cursor: pointer;
+  }
+  
+  .auth-modal .inicio_container a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .auth-modal .inicio_google {
+    margin-bottom: 2rem;
+  }
+  
+  .auth-modal .google-btn {
+    background-color: #DB4437;
+    color: white;
+    border-color: #DB4437;
+    padding: .7rem;
+    border-radius: 2rem;
+    cursor: pointer;
+  }
+  
+  .auth-modal .google-btn:hover {
+    background-color: #C53929;
+    border-color: #C53929;
+  }
+  
+  .inicio_container {
+  margin-top: 25px;
+  }
